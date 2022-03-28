@@ -48,7 +48,7 @@ void bfs() {
 			int nx = x + dx[i];
 			int ny = y + dy[i];
 			if (nx > 0 && ny > 0 && nx <= n && ny <= m) {	//범위 안
-				if (arr[nx][ny] == '0' && dis[nx][ny][flag]==0) {			//벽을 부수지 않은 경우
+				if (arr[nx][ny] == '0' && dis[nx][ny][flag]==0) {		//벽을 부수지 않은 경우
 					dis[nx][ny][flag] = dis[x][y][flag] + 1;
 					q.push({ {nx,ny},flag });
 				}
