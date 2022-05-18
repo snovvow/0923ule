@@ -16,8 +16,7 @@ int maxx = 0;
 
 void backtracking(int x, int y, int hp, int milk);
 
-int main()
-{
+int main() {
 	ios_base::sync_with_stdio(0);
 	cin.tie(0), cout.tie(0);
 
