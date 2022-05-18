@@ -8,7 +8,6 @@ char c[20];
 char tmp[20];
 int pw[2] = { 0, }; // pw[0] = 모음의 개수, pw[1] = 자음의 개수
 
-
 void backtracking(int pre, int cnt);
 
 int main() {
