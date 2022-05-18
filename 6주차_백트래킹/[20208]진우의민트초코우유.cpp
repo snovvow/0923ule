@@ -42,11 +42,11 @@ void backtracking(int x, int y, int hp, int milk) {
 	int dis = abs(x - home_x) + abs(y - home_y);
 	if (hp == 0)
 		return;
-	if (dis <= hp) {
+	if (dis <= hp) { // 집에 돌아갈 수 있는 경우
 		if (maxx < milk) maxx = milk;
 	}
 
-	for (int i = 0;i < v.size();i++) {
+	for (int i = 0;i < v.size();i++) { // 우유리스트 탐색
 		int nx = v[i].first;
 		int ny = v[i].second;
 		int distance = abs(nx - x) + abs(ny - y);
