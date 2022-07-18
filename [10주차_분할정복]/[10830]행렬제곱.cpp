@@ -40,7 +40,7 @@ void multi(ll a[5][5], ll b[5][5]) {
 			tmp[i][j] %= 1000;
 		}
 	}
-  //a배열에 a*b대입
+  //a 배열에 a*b 대입
 	for (int i = 0; i < n; i++) 
 		for (int j = 0; j < n; j++) 
 			a[i][j] = tmp[i][j];
