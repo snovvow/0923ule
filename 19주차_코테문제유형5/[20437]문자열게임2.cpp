@@ -22,7 +22,6 @@ int main() {
 
 		cin >> w >> k;
 
-
 		for (int i = 0; i < w.size(); i++) {
 			alpha[w[i] - 'a']++;
 		}
@@ -41,8 +40,10 @@ int main() {
 				}
 			}
 		}
-		if (ans3 == 987654321 || ans4 == -1) cout << "-1\n";
-		else cout << ans3 << " " << ans4 << "\n";
+		if (ans3 == 987654321 || ans4 == -1)
+			cout << "-1\n";
+		else
+			cout << ans3 << " " << ans4 << "\n";
 	}
 
 	return 0;
